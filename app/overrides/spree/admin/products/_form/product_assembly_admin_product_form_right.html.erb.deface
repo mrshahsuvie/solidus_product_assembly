@@ -1,0 +1,3 @@
+<!-- insert_after "[data-hook='admin_product_form_right'], #admin_product_form_right[data-hook]" -->
+
+<%= render partial: 'spree/admin/products/product_assembly_fields', locals: { f: f } %>
